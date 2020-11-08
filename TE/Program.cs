@@ -1,5 +1,5 @@
-﻿using System;
-using TE.Adapter;
+﻿using TE.Adapter;
+using TE.FactoryMethod;
 using TE.Singleton;
 using TE.Strategy;
 
@@ -12,6 +12,7 @@ namespace TE
             AdapterProgram.AdapterMain();
             SingletonProgram.SingletonMain();
             StrategyProgram.StrategyMain();
+            FactoryProgram.FactoryMain();
         }
     }
 }
