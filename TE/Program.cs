@@ -5,6 +5,7 @@ using TE.Command;
 using TE.Facade;
 using TE.FactoryMethod;
 using TE.Observer;
+using TE.Prototype;
 using TE.Singleton;
 using TE.Strategy;
 
@@ -22,6 +23,7 @@ namespace TE
             FactoryProgram.FactoryMain();
             ObserverProgram.ObserverMain();
             CommandProgram.CommandMain();
+            PrototypeProgram.PrototypeMain();
         }
     }
 }
