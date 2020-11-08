@@ -1,5 +1,6 @@
 ﻿using TE.Adapter;
 using TE.FactoryMethod;
+using TE.Observer;
 using TE.Singleton;
 using TE.Strategy;
 
@@ -13,6 +14,7 @@ namespace TE
             SingletonProgram.SingletonMain();
             StrategyProgram.StrategyMain();
             FactoryProgram.FactoryMain();
+            ObserverProgram.ObserverMain();
         }
     }
 }
