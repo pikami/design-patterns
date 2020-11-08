@@ -1,6 +1,7 @@
 ﻿using System;
 using TE.Adapter;
 using TE.Bridge;
+using TE.Command;
 using TE.Facade;
 using TE.FactoryMethod;
 using TE.Observer;
@@ -20,6 +21,7 @@ namespace TE
             FacadeProgram.FacadeMain();
             FactoryProgram.FactoryMain();
             ObserverProgram.ObserverMain();
+            CommandProgram.CommandMain();
         }
     }
 }
