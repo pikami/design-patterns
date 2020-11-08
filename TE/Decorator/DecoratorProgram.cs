@@ -25,8 +25,6 @@ namespace TE.Decorator
             d1.Operation();
             Console.WriteLine("Decorator 2#");
             d2.Operation();
-            // Wait for user
-            Console.ReadKey();
         }
     }
 }

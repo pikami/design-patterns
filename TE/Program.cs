@@ -10,6 +10,7 @@ using TE.Observer;
 using TE.Prototype;
 using TE.Singleton;
 using TE.Strategy;
+using TE.Builder;
 
 namespace TE
 {
@@ -28,6 +29,7 @@ namespace TE
             DecoratorProgram.DecoratorMain();
             CommandProgram.CommandMain();
             PrototypeProgram.PrototypeMain();
+            BuilderProgram.BuilderMain();
         }
     }
 }
