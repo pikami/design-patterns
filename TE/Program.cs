@@ -1,5 +1,6 @@
 ﻿using System;
 using TE.Adapter;
+using TE.Bridge;
 using TE.Singleton;
 using TE.Strategy;
 
@@ -12,6 +13,7 @@ namespace TE
             AdapterProgram.AdapterMain();
             SingletonProgram.SingletonMain();
             StrategyProgram.StrategyMain();
+            BridgeProgram.BridgeMain();
         }
     }
 }
