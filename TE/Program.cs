@@ -11,6 +11,7 @@ using TE.Prototype;
 using TE.Singleton;
 using TE.Strategy;
 using TE.Builder;
+using TE.Uzd5431;
 
 namespace TE
 {
@@ -18,7 +19,7 @@ namespace TE
     {
         static void Main(string[] args)
         {
-            AdapterProgram.AdapterMain();
+            /*AdapterProgram.AdapterMain();
             SingletonProgram.SingletonMain();
             StrategyProgram.StrategyMain();
             BridgeProgram.BridgeMain();
@@ -29,7 +30,8 @@ namespace TE
             DecoratorProgram.DecoratorMain();
             CommandProgram.CommandMain();
             PrototypeProgram.PrototypeMain();
-            BuilderProgram.BuilderMain();
+            BuilderProgram.BuilderMain();*/
+            Uzd5431Program.Uzd5431Main();
         }
     }
 }
