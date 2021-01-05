@@ -13,6 +13,7 @@ using TE.Strategy;
 using TE.Builder;
 using TE.Uzd5431;
 using TE.Template;
+using TE.IteratorPattern;
 
 namespace TE
 {
@@ -32,8 +33,9 @@ namespace TE
             CommandProgram.CommandMain();
             PrototypeProgram.PrototypeMain();
             BuilderProgram.BuilderMain();
-            Uzd5431Program.Uzd5431Main();*/
-            TemplateProgram.TemplateMain();
+            Uzd5431Program.Uzd5431Main();
+            TemplateProgram.TemplateMain();*/
+            IteratorProgram.IteratorMain();
         }
     }
 }
