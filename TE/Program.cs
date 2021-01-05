@@ -12,6 +12,7 @@ using TE.Singleton;
 using TE.Strategy;
 using TE.Builder;
 using TE.Uzd5431;
+using TE.Template;
 
 namespace TE
 {
@@ -30,8 +31,9 @@ namespace TE
             DecoratorProgram.DecoratorMain();
             CommandProgram.CommandMain();
             PrototypeProgram.PrototypeMain();
-            BuilderProgram.BuilderMain();*/
-            Uzd5431Program.Uzd5431Main();
+            BuilderProgram.BuilderMain();
+            Uzd5431Program.Uzd5431Main();*/
+            TemplateProgram.TemplateMain();
         }
     }
 }
