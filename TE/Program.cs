@@ -14,6 +14,7 @@ using TE.Builder;
 using TE.Uzd5431;
 using TE.Template;
 using TE.IteratorPattern;
+using TE.CompositePattern;
 
 namespace TE
 {
@@ -34,8 +35,9 @@ namespace TE
             PrototypeProgram.PrototypeMain();
             BuilderProgram.BuilderMain();
             Uzd5431Program.Uzd5431Main();
-            TemplateProgram.TemplateMain();*/
-            IteratorProgram.IteratorMain();
+            TemplateProgram.TemplateMain();
+            IteratorProgram.IteratorMain();*/
+            CompositeProgram.CompositeMain();
         }
     }
 }
